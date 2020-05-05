@@ -1,0 +1,641 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CA5327F72461566300065CEA /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CA5327F52461566300065CEA /* Info.plist */; };
+		CA5327F82461566300065CEA /* CassiniUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA5327F62461566300065CEA /* CassiniUITests.swift */; };
+		CA5327FC2461566C00065CEA /* CassiniTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA5327FA2461566C00065CEA /* CassiniTests.swift */; };
+		CA5327FD2461566C00065CEA /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CA5327FB2461566C00065CEA /* Info.plist */; };
+		CA53280C2461567700065CEA /* CassiniViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA5327FF2461567700065CEA /* CassiniViewController.swift */; };
+		CA53280D2461567700065CEA /* DemoURLs.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA5328002461567700065CEA /* DemoURLs.swift */; };
+		CA53280E2461567700065CEA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA5328022461567700065CEA /* Main.storyboard */; };
+		CA5328102461567700065CEA /* ImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA5328052461567700065CEA /* ImageViewController.swift */; };
+		CA5328112461567700065CEA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA5328072461567700065CEA /* Assets.xcassets */; };
+		CA5328122461567700065CEA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA5328082461567700065CEA /* LaunchScreen.storyboard */; };
+		CA5328132461567700065CEA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA53280A2461567700065CEA /* AppDelegate.swift */; };
+		CA5328142461567700065CEA /* oval.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CA53280B2461567700065CEA /* oval.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CA5327D82461563400065CEA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CA5327B92461563200065CEA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CA5327C02461563200065CEA;
+			remoteInfo = Cassini;
+		};
+		CA5327E32461563400065CEA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CA5327B92461563200065CEA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CA5327C02461563200065CEA;
+			remoteInfo = Cassini;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CA5327C12461563200065CEA /* Cassini.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cassini.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA5327D72461563400065CEA /* CassiniTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CassiniTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA5327E22461563400065CEA /* CassiniUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CassiniUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA5327F42461566200065CEA /* CassiniUITests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CassiniUITests-Bridging-Header.h"; sourceTree = "<group>"; };
+		CA5327F52461566300065CEA /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA5327F62461566300065CEA /* CassiniUITests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CassiniUITests.swift; sourceTree = "<group>"; };
+		CA5327F92461566C00065CEA /* CassiniTests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CassiniTests-Bridging-Header.h"; sourceTree = "<group>"; };
+		CA5327FA2461566C00065CEA /* CassiniTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CassiniTests.swift; sourceTree = "<group>"; };
+		CA5327FB2461566C00065CEA /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA5327FE2461567700065CEA /* Cassini-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Cassini-Bridging-Header.h"; sourceTree = "<group>"; };
+		CA5327FF2461567700065CEA /* CassiniViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CassiniViewController.swift; sourceTree = "<group>"; };
+		CA5328002461567700065CEA /* DemoURLs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DemoURLs.swift; sourceTree = "<group>"; };
+		CA5328032461567700065CEA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Main.storyboard; sourceTree = "<group>"; };
+		CA5328042461567700065CEA /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA5328052461567700065CEA /* ImageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageViewController.swift; sourceTree = "<group>"; };
+		CA5328072461567700065CEA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CA5328092461567700065CEA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CA53280A2461567700065CEA /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CA53280B2461567700065CEA /* oval.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = oval.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CA5327BE2461563200065CEA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA5327D42461563400065CEA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA5327DF2461563400065CEA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CA5327B82461563200065CEA = {
+			isa = PBXGroup;
+			children = (
+				CA5327C32461563200065CEA /* Cassini */,
+				CA5327DA2461563400065CEA /* CassiniTests */,
+				CA5327E52461563400065CEA /* CassiniUITests */,
+				CA5327C22461563200065CEA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CA5327C22461563200065CEA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CA5327C12461563200065CEA /* Cassini.app */,
+				CA5327D72461563400065CEA /* CassiniTests.xctest */,
+				CA5327E22461563400065CEA /* CassiniUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CA5327C32461563200065CEA /* Cassini */ = {
+			isa = PBXGroup;
+			children = (
+				CA5328012461567700065CEA /* Base.lproj */,
+				CA5327FF2461567700065CEA /* CassiniViewController.swift */,
+				CA5328002461567700065CEA /* DemoURLs.swift */,
+				CA5328052461567700065CEA /* ImageViewController.swift */,
+				CA5328042461567700065CEA /* Info.plist */,
+				CA53280B2461567700065CEA /* oval.jpg */,
+				CA5328062461567700065CEA /* Supporting Files */,
+				CA5327FE2461567700065CEA /* Cassini-Bridging-Header.h */,
+			);
+			path = Cassini;
+			sourceTree = "<group>";
+		};
+		CA5327DA2461563400065CEA /* CassiniTests */ = {
+			isa = PBXGroup;
+			children = (
+				CA5327FA2461566C00065CEA /* CassiniTests.swift */,
+				CA5327FB2461566C00065CEA /* Info.plist */,
+				CA5327F92461566C00065CEA /* CassiniTests-Bridging-Header.h */,
+			);
+			path = CassiniTests;
+			sourceTree = "<group>";
+		};
+		CA5327E52461563400065CEA /* CassiniUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CA5327F62461566300065CEA /* CassiniUITests.swift */,
+				CA5327F52461566300065CEA /* Info.plist */,
+				CA5327F42461566200065CEA /* CassiniUITests-Bridging-Header.h */,
+			);
+			path = CassiniUITests;
+			sourceTree = "<group>";
+		};
+		CA5328012461567700065CEA /* Base.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				CA5328022461567700065CEA /* Main.storyboard */,
+			);
+			path = Base.lproj;
+			sourceTree = "<group>";
+		};
+		CA5328062461567700065CEA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CA5328072461567700065CEA /* Assets.xcassets */,
+				CA5328082461567700065CEA /* LaunchScreen.storyboard */,
+				CA53280A2461567700065CEA /* AppDelegate.swift */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CA5327C02461563200065CEA /* Cassini */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA5327EB2461563400065CEA /* Build configuration list for PBXNativeTarget "Cassini" */;
+			buildPhases = (
+				CA5327BD2461563200065CEA /* Sources */,
+				CA5327BE2461563200065CEA /* Frameworks */,
+				CA5327BF2461563200065CEA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Cassini;
+			productName = Cassini;
+			productReference = CA5327C12461563200065CEA /* Cassini.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CA5327D62461563400065CEA /* CassiniTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA5327EE2461563400065CEA /* Build configuration list for PBXNativeTarget "CassiniTests" */;
+			buildPhases = (
+				CA5327D32461563400065CEA /* Sources */,
+				CA5327D42461563400065CEA /* Frameworks */,
+				CA5327D52461563400065CEA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CA5327D92461563400065CEA /* PBXTargetDependency */,
+			);
+			name = CassiniTests;
+			productName = CassiniTests;
+			productReference = CA5327D72461563400065CEA /* CassiniTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CA5327E12461563400065CEA /* CassiniUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA5327F12461563400065CEA /* Build configuration list for PBXNativeTarget "CassiniUITests" */;
+			buildPhases = (
+				CA5327DE2461563400065CEA /* Sources */,
+				CA5327DF2461563400065CEA /* Frameworks */,
+				CA5327E02461563400065CEA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CA5327E42461563400065CEA /* PBXTargetDependency */,
+			);
+			name = CassiniUITests;
+			productName = CassiniUITests;
+			productReference = CA5327E22461563400065CEA /* CassiniUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CA5327B92461563200065CEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1140;
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = CuongKc;
+				TargetAttributes = {
+					CA5327C02461563200065CEA = {
+						CreatedOnToolsVersion = 11.4.1;
+						LastSwiftMigration = 1140;
+					};
+					CA5327D62461563400065CEA = {
+						CreatedOnToolsVersion = 11.4.1;
+						LastSwiftMigration = 1140;
+						TestTargetID = CA5327C02461563200065CEA;
+					};
+					CA5327E12461563400065CEA = {
+						CreatedOnToolsVersion = 11.4.1;
+						LastSwiftMigration = 1140;
+						TestTargetID = CA5327C02461563200065CEA;
+					};
+				};
+			};
+			buildConfigurationList = CA5327BC2461563200065CEA /* Build configuration list for PBXProject "Cassini" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CA5327B82461563200065CEA;
+			productRefGroup = CA5327C22461563200065CEA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CA5327C02461563200065CEA /* Cassini */,
+				CA5327D62461563400065CEA /* CassiniTests */,
+				CA5327E12461563400065CEA /* CassiniUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CA5327BF2461563200065CEA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA5328142461567700065CEA /* oval.jpg in Resources */,
+				CA5328122461567700065CEA /* LaunchScreen.storyboard in Resources */,
+				CA5328112461567700065CEA /* Assets.xcassets in Resources */,
+				CA53280E2461567700065CEA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA5327D52461563400065CEA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA5327FD2461566C00065CEA /* Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA5327E02461563400065CEA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA5327F72461566300065CEA /* Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CA5327BD2461563200065CEA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA5328132461567700065CEA /* AppDelegate.swift in Sources */,
+				CA53280D2461567700065CEA /* DemoURLs.swift in Sources */,
+				CA5328102461567700065CEA /* ImageViewController.swift in Sources */,
+				CA53280C2461567700065CEA /* CassiniViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA5327D32461563400065CEA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA5327FC2461566C00065CEA /* CassiniTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA5327DE2461563400065CEA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA5327F82461566300065CEA /* CassiniUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CA5327D92461563400065CEA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CA5327C02461563200065CEA /* Cassini */;
+			targetProxy = CA5327D82461563400065CEA /* PBXContainerItemProxy */;
+		};
+		CA5327E42461563400065CEA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CA5327C02461563200065CEA /* Cassini */;
+			targetProxy = CA5327E32461563400065CEA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CA5328022461567700065CEA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CA5328032461567700065CEA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CA5328082461567700065CEA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CA5328092461567700065CEA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CA5327E92461563400065CEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CA5327EA2461563400065CEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CA5327EC2461563400065CEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Cassini/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = kdab.io.Cassini;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Cassini/Cassini-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CA5327ED2461563400065CEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Cassini/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = kdab.io.Cassini;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Cassini/Cassini-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CA5327EF2461563400065CEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CassiniTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = kdab.io.CassiniTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "CassiniTests/CassiniTests-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cassini.app/Cassini";
+			};
+			name = Debug;
+		};
+		CA5327F02461563400065CEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CassiniTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = kdab.io.CassiniTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "CassiniTests/CassiniTests-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cassini.app/Cassini";
+			};
+			name = Release;
+		};
+		CA5327F22461563400065CEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CassiniUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = kdab.io.CassiniUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "CassiniUITests/CassiniUITests-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Cassini;
+			};
+			name = Debug;
+		};
+		CA5327F32461563400065CEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CassiniUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = kdab.io.CassiniUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "CassiniUITests/CassiniUITests-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Cassini;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CA5327BC2461563200065CEA /* Build configuration list for PBXProject "Cassini" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA5327E92461563400065CEA /* Debug */,
+				CA5327EA2461563400065CEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA5327EB2461563400065CEA /* Build configuration list for PBXNativeTarget "Cassini" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA5327EC2461563400065CEA /* Debug */,
+				CA5327ED2461563400065CEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA5327EE2461563400065CEA /* Build configuration list for PBXNativeTarget "CassiniTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA5327EF2461563400065CEA /* Debug */,
+				CA5327F02461563400065CEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA5327F12461563400065CEA /* Build configuration list for PBXNativeTarget "CassiniUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA5327F22461563400065CEA /* Debug */,
+				CA5327F32461563400065CEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CA5327B92461563200065CEA /* Project object */;
+}

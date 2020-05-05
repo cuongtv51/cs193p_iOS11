@@ -138,7 +138,7 @@ class PlayingCardView: UIView {
         paragraphStyle.alignment = .center
         
         // The attributes to build our string
-        let attributes: [NSAttributedStringKey:Any] = [
+        let attributes: [NSAttributedString.Key:Any] = [
             .paragraphStyle : paragraphStyle,
             .font : font
         ]

@@ -153,7 +153,7 @@ extension DocumentsTableViewController {
     /// Determine the cell's selection-style for the given indexPath. For instance, cells in the "deleted"
     /// section should not be selectable.
     ///
-    private func selectionStyle(forRowAt indexPath: IndexPath) -> UITableViewCellSelectionStyle {
+    private func selectionStyle(forRowAt indexPath: IndexPath) -> UITableViewCell.SelectionStyle {
         switch section(at: indexPath) {
         
         // Regular documents: allow for selecetion
@@ -215,7 +215,7 @@ extension DocumentsTableViewController {
     ///
     /// Swipe to delete
     ///
-    override func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCellEditingStyle, forRowAt indexPath: IndexPath) {
+    override func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCell.EditingStyle, forRowAt indexPath: IndexPath) {
         if editingStyle == .delete {
             // Process a "swipeToDelete" action
             processSwipeToDelete(at: indexPath)

@@ -116,7 +116,7 @@ class ImageCollectionViewCell: UICollectionViewCell {
     ///
     private func fetchingState() {
         subviews.forEach { $0.removeFromSuperview() }
-        let activityIndicator = UIActivityIndicatorView(activityIndicatorStyle: .gray)
+        let activityIndicator = UIActivityIndicatorView(style: .gray)
         activityIndicator.startAnimating()
         activityIndicator.frame = bounds
         addSubview(activityIndicator)
